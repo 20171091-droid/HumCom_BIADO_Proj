@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LoL Fun Hub - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<button id="feedbackBtn">💬 Feedback</button>
+
+<div id="feedbackModal" class="feedback-modal">
+
+  <div class="feedback-box">
+    <span id="closeFeedback">&times;</span>
+
+    <h2>Website Feedback 💖</h2>
+
+    <textarea id="feedbackText" placeholder="Write your thoughts about the website..."></textarea>
+
+    <button onclick="submitFeedback()" class="submit-btn">Submit</button>
+
+    <p id="feedbackMsg"></p>
+  </div>
+
+</div>
+
+<body>
+
+<nav>
+  <div class="nav-left">
+    <img src="logo.png" class="nav-logo">
+    <span class="site-name">LoL Fun Hub</span>
+  </div>
+
+  <div class="nav-links">
+    <a href="index.html" class="active">Home</a>
+    <a href="characters.html">Characters</a>
+    <a href="history.html">History</a>
+    <a href="gameplay.html">Gameplay</a>
+  </div>
+</nav>
+
+<div class="hero-logo">
+  <img src="logo.png" alt="LoL Fun Hub Logo">
+</div>
+
+<header class="hero">
+  <div class="hero-content">
+    <h1>✨ League of Legends Fun Hub ✨</h1>
+    <p>Discover the stories, secrets, and lore behind your favorite champions 💖</p>
+    <a href="characters.html" class="btn">Explore Characters</a>
+  </div>
+</header>
+
+
+<div class="home-layout">
+
+  <!-- LEFT SIDE -->
+  <section class="left-content">
+    <h2 style="text-align:center;">🌸 Featured Champions</h2>
+
+    <div class="card-container">
+      <a href="ahri.html" class="card">
+        <img src="images/ahri.jpg" class="card-img">
+        <h3>Ahri</h3>
+        <p>The nine-tailed fox searching for identity and redemption.</p>
+      </a>
+
+      <a href="akali.html" class="card">
+        <img src="images/akali.jpg" class="card-img">
+        <h3>Akali</h3>
+        <p>A rogue assassin walking her own path in Ionia.</p>
+      </a>
+
+      <a href="lux.html" class="card">
+        <img src="images/lux.jpg" class="card-img">
+        <h3>Lux</h3>
+        <p>A mage of light hiding her power in Demacia.</p>
+      </a>
+
+      <a href="garen.html" class="card">
+        <img src="images/garen.jpg" class="card-img">
+        <h3>Garen</h3>
+        <p>A proud warrior defending his homeland.</p>
+      </a>
+
+      <a href="vex.html" class="card">
+        <img src="images/vex.jpg" class="card-img">
+        <h3>Vex</h3>
+        <p>A gloomy shadow mage with a love for chaos.</p>
+      </a>
+
+      <a href="yasuo.html" class="card">
+        <img src="images/yasuo.jpg" class="card-img">
+        <h3>Yasuo</h3>
+        <p>A wind swordsman seeking redemption for his past.</p>  
+      </a>
+
+
+    </div>
+  </section>
+
+  <!-- RIGHT SIDE (NEW GAMEPLAY SECTION) -->
+  <aside class="right-content">
+    <h2>🎮 Gameplay</h2>
+
+    <div class="gameplay-card">
+      <p>Ahri Highlights ✨</p>
+      <iframe 
+        src="https://www.youtube.com/embed/vw-NE4c24AQ" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="gameplay-card">
+      <p>Akali Montage 🔥</p>
+      <iframe 
+        src="https://www.youtube.com/embed/xR25yUXVm7c" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+     <div class="gameplay-card">
+      <p>Yasuo montage 🔥</p>
+      <iframe 
+        src="https://www.youtube.com/embed/F3yeP9UxAX0" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+
+  </aside>
+
+</div>
+
+<section>
+  <h2>What is League of Legends?</h2>
+<p> League of Legends is a fast-paced online multiplayer game where two teams of five players compete to destroy the enemy’s base, 
+  called the Nexus. It was developed and released by Riot Games in 2009 and has since become one of the most popular games in the world. </p>
+</section>
+
+
+
+<button id="topBtn" onclick="scrollToTop()">⬆</button>
+
+<footer>
+  <p>Made with 💚 | Cute League Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+
+
+</html>
